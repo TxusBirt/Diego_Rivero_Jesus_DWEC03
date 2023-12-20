@@ -148,7 +148,6 @@ var botones_herramientas = document.querySelectorAll(".herramientas");
 var utilesOn=document.getElementById("activacion_herramientas");
 // funcionamiento de recuadro de activación/desactivación
 const utiles = function(e) {
-
     if (activar_herramientas==false){
         activar_herramientas=true;
         herramientaOn = this.value;
@@ -160,7 +159,6 @@ const utiles = function(e) {
         utilesOn.textContent="OFF";
     }
 }
-
 botones_herramientas.forEach(boton1 => {
     boton1.addEventListener("click", utiles);
 });
