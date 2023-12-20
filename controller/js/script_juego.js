@@ -225,7 +225,6 @@ var reseteo = document.getElementById("reseteo");
 reseteo.addEventListener("click", () => {
     var figuras = document.querySelectorAll(".figuras");
     for (let i = 0; i <figuras.length; i++) {
-        console.log(figuras[i]);
         figuras[i].remove();
         }
         
