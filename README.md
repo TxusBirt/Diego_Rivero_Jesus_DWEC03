@@ -22,7 +22,7 @@ Si se clicka una vez sobre cualquiera de las opciones se activara la misma y cli
 Estas opciones, una vez activadas, para usarlas se deberá poner el puntero del raton sobre la figura con la que se quiere interactuar y moviendo la rueda del ratón se realizará la acción activada. La acción que este en activo se muestra en el recuadro que hay junto a la barra de opciones.
 
 Las opciones 'Capa Up' y 'Capa Down' hacen subir o bajar el orden de superposicion de las figuras. Cuanto más alto sea el número que tienen más arriba estarán, es decir, una figura con nº capa 1 se situará por debajo de otra figura con nº capa 2 o superior. El número de capa irá apareciendo en el recuadro que se encunetra encima de las opciones 'capa up' y 'capa down'
-Si se quiere saber el orden de capa de una figura se debe tener activada la opcion capa up o capa down y hacer doble click sobre la figura generada. 
+Si se quiere saber el orden de capa de una figura se debe tener activada la opcion capa up o capa down y hacer doble click sobre la figura generada.  
 
 Papelera
 Se puede arratrar una figura a la papelera para eliminarla
