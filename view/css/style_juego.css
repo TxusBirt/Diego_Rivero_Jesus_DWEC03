@@ -1,0 +1,242 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    border: 5px solid rebeccapurple;
+    text-align: center;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 6em;
+    color: coral;
+}
+h2 {
+    margin:10px auto 10px auto;
+    font-size: 3em;
+    color:blue
+}
+h3 {
+    margin:0;
+    text-align: left;
+    font-size: 1em;
+}
+
+.menu_figuras{
+    margin:0;
+    padding: 10px;
+    border:5px solid black;
+    text-align: center;
+    background-color: rgb(170, 42, 168);
+}
+.boton {
+   
+    margin:10px;
+}
+
+#circle {
+    background-color: rgb(188, 188, 200);
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+#elipses {
+    background-color: rgb(188, 188, 200);
+    height:100px;
+    width:200px;
+    border-radius:50%;
+}
+#square {
+    background-color: rgb(188, 188, 200);
+    height:100px;
+    width:100px;
+}
+#rectangle {
+    background-color: rgb(188, 188, 200);
+    height:100px;
+    width:200px;
+}
+#triangule {
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(188, 188, 200);
+    border-left: 50px solid transparent;
+    background-color: rgb(170, 42, 168);
+}
+#contenedor {
+    position: relative;
+    width: 99.3%;
+    height: 40em;
+    background-color: rgb(248, 247, 249);
+    border: 5px solid black;
+}
+
+#menu_herramientas {
+    float:right;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:5px;
+    
+}
+.herramientas {
+    border:2px solid black;
+    margin:0;
+    font-size: 1em;;
+    text-align: center;
+    color: black;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 165, 165);
+}
+
+#activacion_herramientas {
+    float:right;
+    margin:5px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    background-color: azure;
+    color:rgb(145, 151, 161);
+    font-size: 2em;;
+}
+#numeroCapa {
+    position: absolute;
+    right: 0;
+    top:24%;
+    margin:5px;
+    text-align: center;
+    height: 40px;
+    border: 3px solid black;
+    background-color: azure;
+    color:rgb(145, 151, 161);
+    font-size: 2em;;
+}
+.cuadrado {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top:400px;
+    z-index: 1;
+    background-color: red;
+    border:2px;
+    
+}
+.circulo {
+    height: 100px;
+    width: 100px;
+    left:10px;
+    top:200px;
+    z-index: 5;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.triangulo {
+    width: 0;
+    height: 0;
+    left: 0;
+    top:400px;
+    z-index: 2;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    border-left: 50px solid transparent;
+    }
+.elipse {
+    z-index: 4;
+    left:10px;
+    top:200px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.figuras {
+    position: absolute;
+}
+.rectangulo {
+    z-index: 3;
+    width: 100px;
+    left:10px;
+    top:150px;
+    height: 200px;
+    background-color: green;
+    
+    
+}
+.menu_colores{
+    position:relative;
+    
+    padding: 10px;
+    border:5px solid black;
+    text-align: center;
+    background-color: rgb(160, 120, 159);
+}
+
+.boton_color {
+    width: 100px;
+    height: 100px;
+}
+#activacion {
+    position:relative;
+    margin: 0px 100px 10px auto;
+    border: 3px solid black;
+    background-color: azure;
+    color:rgb(145, 151, 161);
+    font-size: 2em;;
+}
+#papelera {
+    
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    box-shadow: 5px;
+    color:rgb(55, 49, 20);
+    font-size: 1.6em;
+    font-weight: bold;
+    background: repeating-linear-gradient(
+            45deg,
+             rgba(255, 255, 255, 100) 20px,
+             rgba(255, 255, 255, 100) 40px,
+             #e43509 40px,
+             #e9370a 60px
+            );
+}
+#reseteo {
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: rgb(202, 87, 87);
+  border: 4px solid black;
+}
+#fondo {
+    position: absolute;
+    left:0;
+    bottom:0;
+    
+    margin:0px;
+    border: 3px solid black;
+    background-color: azure;
+    color:rgb(145, 151, 161);
+    font-size: 2em;;
+}
+#rueda_color {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+#color {
+    margin:0 auto;
+    height: 50px;
+    width: 200px;
+}

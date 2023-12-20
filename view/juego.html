@@ -1,0 +1,80 @@
+<!--
+  Autor: Jesus Diego Rivero
+  Fecha:20/12/2023
+  Modulo: Desarrollo web entorno cliente
+  Unidad Didactica: 03
+  Interfaz del juego Makergame
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>makergen</title>
+    <link rel="stylesheet" href="./css/style_juego.css">
+    <script src="../controller/js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MAKERGAME</h1>
+    </header>
+  <!--
+    Creacion de figuras
+  -->
+  <div class="menu_figuras">
+    <h2>FORMAS GEOMETRICAS</h2>
+    <button class="boton" id="rectangle" value="rectangulo"></button>
+    <button class="boton" id="square" value="cuadrado"></button>
+    <button class="boton" id="circle" value="circulo"></button>
+    <button class="boton" id="triangule" value="triangulo"></button>
+    <button class="boton" id="elipses" value="elipse"></button>
+  </div>
+  <!--
+    Tablero de dibujo
+  -->
+  <div id="contenedor">
+    <!--
+      Utiles
+    -->
+    <div id="menu_herramientas">
+        <button class="herramientas" value="rotacion">Rotar</button>
+        <button class="herramientas" value="ampliacion">Ampliar</button>
+        <button class="herramientas" value="reduccion">Reducir</button>
+        <button class="herramientas" style="margin-top: 55px;" value="capaUp">Capa Up</button>
+        <button class="herramientas" value="capaDown">Capa Down</button>
+    </div>
+    <div id="activacion_herramientas"> Utiles</div>
+    <div id="numeroCapa">Nª capa</div>
+    <!--
+      Papelera
+    -->
+    <div id="papelera">Papelera</div>
+    <!--
+      Activacion/desactivacion color fondo
+    -->
+    <button id="fondo">Cambiar Fondo</button>
+  </div>
+  <!--
+    Colores
+  -->
+  <div class="menu_colores">
+    <!--
+      Reseteo
+    -->
+    <button id="reseteo">RESET</button>
+    <!--
+      Activacion/desactivacion Colores
+    -->
+    <button id="activacion">Color Desactivado</button>
+    <h2>COLORES</h2>
+    <button class="boton_color"  style="background-color: green;" value="green"></button>
+    <button class="boton_color"  style="background-color: red;" value="red"></button>
+    <button class="boton_color"  style="background-color: rgb(0, 110, 255);"  value="blue"></button>
+    <button class="boton_color"  style="background-color: rgb(244, 244, 17);"  value="yellow"></button>
+    <button class="boton_color"  style="background-color: rgb(255, 255, 255);;"  value="white"></button>
+    <button class="boton_color"  style="background-color: rgb(0, 0, 0);"  value="black"></button>
+    <div id="rueda_color">Rueda de color<input type="color" class="boton_color" id="color" value="#e44949"/></div>
+  </div>
+</body>
+<script type="text/javascript" src="../controller/js/script_juego.js"></script>
+</html>
