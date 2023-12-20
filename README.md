@@ -34,7 +34,7 @@ Si se quiere saber el orden de capa de una figura se debe tener activada la opci
 
 **Papelera**
 
-Se puede arratrar una figura a la papelera para eliminarla
+Se puede arratrar una figura a la papelera para eliminarla 
 
 **RESET**
 
