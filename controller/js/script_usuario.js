@@ -83,6 +83,7 @@ $(document).ready(function(){
     
                 }
                 alert(simb);
+                simb="Caracteres no validos: ";
                 limpiarFormulario($("#contrasena"), $("#usuario"));
             } else {
                 alert("Introduzca una contraseña valida");
