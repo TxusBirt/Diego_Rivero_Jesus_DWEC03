@@ -8,8 +8,8 @@
 // Tablero
 var contenedor = document.getElementById("contenedor");
 
-
 // MOVIMIENTO FIGURAS
+
 // inicio arrastre
 contenedor.addEventListener("dragstart", (e) => {
     for (let i = 1; i <= contenedor.children.length + 1; i++){
@@ -65,7 +65,9 @@ function soltar (e) {
     }
     
 };
+
 // GENERACION DE FIGURAS
+
 // se selecciona el elemento que activará el evento
 var botones = document.querySelectorAll(".boton");
 //se genera un elemento div (una figura) dentro del contenedor
@@ -86,6 +88,7 @@ botones.forEach(boton => {
     boton.addEventListener("click", cuandoClikas);});
 
 // COLORES
+
 // variable de activación del color
 var activarColor = false;
 var botones_color = document.querySelectorAll(".boton_color");
@@ -141,11 +144,8 @@ contenedor.addEventListener("mouseover", (e) => {
 var activar_herramientas=false;
 // util activado
 var herramientaOn;
-
 var botones_herramientas = document.querySelectorAll(".herramientas");
-
 var utilesOn=document.getElementById("activacion_herramientas");
-
 // funcionamiento de recuadro de activación/desactivación
 const utiles = function(e) {
 
@@ -164,6 +164,7 @@ const utiles = function(e) {
 botones_herramientas.forEach(boton1 => {
     boton1.addEventListener("click", utiles);
 });
+
 var contador=0;
 var numCapa = document.querySelector("#numeroCapa");
 // eventos con raton. Se aplican por derivación a las figuras del interior del contenedor
@@ -219,7 +220,6 @@ contenedor.addEventListener("dblclick", (e) => {
     }
 });
 
-
 // Resetear tablero dibujo
 var reseteo = document.getElementById("reseteo");
 reseteo.addEventListener("click", () => {
@@ -227,7 +227,6 @@ reseteo.addEventListener("click", () => {
     for (let i = 0; i <figuras.length; i++) {
         figuras[i].remove();
         }
-        
 });
 //cambiar color fondo tablero dibujo
 var fondo_contenedor = false;
@@ -245,6 +244,5 @@ contenedor.addEventListener("click", () => {
     if (fondo_contenedor && activarColor) {
         contenedor.style.backgroundColor=color;
     } 
-    
 });
 
